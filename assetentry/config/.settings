@@ -1,0 +1,17 @@
+{
+    "projectName": "assetentry",
+    "username": "tigoe@kvh.com.servcloud",
+    "id": "8ab1ec00-6d8a-11e7-972f-096bfd9fbc01",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://kvh--ServCloud.cs65.my.salesforce.com",
+    "workspace": "C:\\Users\\tigoe\\Documents\\GitHub",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}

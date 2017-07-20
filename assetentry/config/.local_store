@@ -1,0 +1,30 @@
+{
+    "ProductEntry.page": {
+        "createdById": "005a0000009dZ6SAAU",
+        "createdByName": "Tricia Igoe",
+        "createdDate": "2017-07-11T15:14:03.000Z",
+        "fileName": "unpackaged/pages/ProductEntry.page",
+        "fullName": "ProductEntry",
+        "id": "0660m0000000XUmAAM",
+        "lastModifiedById": "005a0000009dZ6SAAU",
+        "lastModifiedByName": "Tricia Igoe",
+        "lastModifiedDate": "2017-07-11T21:08:50.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexPage",
+        "mmState": "clean"
+    },
+    "ProductEntryController.cls": {
+        "createdById": "005a0000009dZ6SAAU",
+        "createdByName": "Tricia Igoe",
+        "createdDate": "2017-07-11T16:35:58.000Z",
+        "fileName": "unpackaged/classes/ProductEntryController.cls",
+        "fullName": "ProductEntryController",
+        "id": "01p0m0000005E8mAAE",
+        "lastModifiedById": "005a0000009dZ6SAAU",
+        "lastModifiedByName": "Tricia Igoe",
+        "lastModifiedDate": "2017-07-18T15:43:05.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    }
+}

@@ -1,0 +1,38 @@
+<apex:page controller="ProductEntryController" tabstyle="Asset">
+    <apex:form >
+        <apex:pageBlock title="Add Child Assets">          
+            <apex:pageBlockTable value="{!wrappers}" var="wrapper" id="wtable">
+                <apex:column headerValue="Seq #">
+                	<apex:inputField value="{!wrapper.asst.Sequence_No__c}"/>
+                </apex:column>
+                <apex:column headerValue="Child Item">
+                	<apex:inputField value="{!wrapper.asst.Product2Id}"/>
+                </apex:column>
+                <apex:column headerValue="Child S/N">
+                	<apex:inputField value="{!wrapper.asst.Name}"/>
+                </apex:column>
+                <apex:column headerValue="Rev">
+                	<apex:inputField value="{!wrapper.asst.Revision_No__c}"/>
+                </apex:column>
+                <apex:column headerValue="Installed By">
+                	<apex:inputField value="{!wrapper.asst.Installed_By__c}"/>
+                </apex:column>
+                <apex:column headerValue="Install Date">
+                	<apex:inputField value="{!wrapper.asst.InstallDate}"/>
+                </apex:column>
+                <apex:column headerValue="Action">
+                    <apex:commandButton value="Delete" action="{!delWrapper}" rerender="wtable">
+                        <apex:param name="toDelIdent" value="{!wrapper.ident}" assignTo="{!toDelIdent}"/> 
+                    </apex:commandButton>
+                </apex:column>
+            </apex:pageBlockTable>
+            <apex:commandButton value="Add Row" action="{!addRows}" rerender="wtable">
+                <apex:param name="addCount" value="1" assignTo="{!addCount}"/> 
+            </apex:commandButton>
+            <apex:commandButton value="Add 5 Rows" action="{!addRows}" rerender="wtable">
+                <apex:param name="addCount" value="5" assignTo="{!addCount}"/> 
+            </apex:commandButton>
+            <apex:commandButton value="Save" action="{!save}"/>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
